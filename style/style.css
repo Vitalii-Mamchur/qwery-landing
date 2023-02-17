@@ -350,7 +350,8 @@
 
 .footer {
   width: 1461px;
-  margin: -144px auto 118px auto;
+  margin: -144px auto 0 auto;
+  padding-bottom: 118px;
 }
 .footer__top {
   height: 126px;
@@ -456,6 +457,9 @@
 }
 .footer__center .services {
   margin-top: 37px;
+}
+.footer__center .services:last-child {
+  margin-right: 97px;
 }
 .footer__center .services span {
   display: block;
